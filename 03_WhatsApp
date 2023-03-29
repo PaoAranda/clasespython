@@ -1,0 +1,9 @@
+#pip install pywhatkit
+#python3 -m install pip pywhatkit
+import pywhatkit
+
+tel = input('ingresa un telefono: ')
+#+527821868167
+
+#Enviar un mensaje a un numero de telefono
+pywhatkit.sendwhatmsg(tel, 'test1',8,18)
